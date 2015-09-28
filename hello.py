@@ -1,5 +1,5 @@
 import helper
-import another_new
+import new
 
 if __name__ == "__main__":
-    helper.greeting(another_new.wrong_const(3, "hello"))
+    helper.greeting(new.const("hello", 3))
